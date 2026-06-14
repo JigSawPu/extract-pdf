@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Text Extractor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>PDF Text Extractor</h1>
+
+    <input type="file" id="pdfs" multiple accept=".pdf">
+
+    <button id="uploadBtn">
+        Upload & Process
+    </button>
+
+    <div id="loading"></div>
+
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>PDF</th>
+                <th>Text File</th>
+                <th>Unique Words</th>
+                <th>Sorted Unique Words</th>
+            </tr>
+        </thead>
+
+        <tbody></tbody>
+    </table>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
